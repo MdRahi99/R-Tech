@@ -31,6 +31,14 @@ body{
         margin: 3% 0px;
         padding: 3%;
     }
+
+    .register-info h2,p{
+        text-align: center;
+    }
+    .register-btn{
+        margin-top: 5%;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 1200px) {
@@ -43,5 +51,13 @@ body{
     }
     .carousel-caption p{
         font-size: 16px;
+    }
+
+    .register-info h2,p{
+        text-align: center;
+    }
+    .register-btn{
+        margin-top: 5%;
+        text-align: center;
     }
 }
