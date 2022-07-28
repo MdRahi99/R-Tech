@@ -10,7 +10,7 @@ body{
 
 @media only screen and (max-width: 576px) {
     .carousel-item img{
-        height: 550px;
+        height: 600px;
         object-fit: cover;
     }
     .carousel-caption h1{
@@ -32,36 +32,23 @@ body{
         height: 240px;
     }
     .courses-info{
-        margin: 3% 0px;
+        margin: 5% 0%;
+        text-align: center;
         padding: 3%;
     }
 
     .register-info h2,p{
         text-align: center;
     }
-    .register-btn{
-        margin-top: 5%;
-        text-align: center;
-    }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 1200px) {
     .carousel-item img{
-        height: 600px;
+        height: 800px;
         object-fit: cover;
     }
-    .carousel-caption h1{
-        font-size: 30px;
-    }
-    .carousel-caption p{
-        font-size: 16px;
-    }
-
+    
     .register-info h2,p{
-        text-align: center;
-    }
-    .register-btn{
-        margin-top: 5%;
         text-align: center;
     }
 }
